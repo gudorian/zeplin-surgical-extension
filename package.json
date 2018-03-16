@@ -1,0 +1,65 @@
+{
+  "name": "zeplin-surgical-extension",
+  "version": "0.1.0",
+  "description": "Zeplin extension for working with Surgical JS library.",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec"
+  },
+  "zeplin": {
+    "displayName": "Surgical",
+    "projectTypes": [
+      "web"
+    ],
+    "options": [
+      {
+        "name": "Color format",
+        "type": "picker",
+        "id": "colorFormat",
+        "submenu": true,
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "HEX",
+            "value": "hex"
+          },
+          {
+            "name": "RGB",
+            "value": "rgb"
+          },
+          {
+            "name": "HSL",
+            "value": "hsl"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "name": "Dimensions",
+        "type": "switch",
+        "id": "showDimensions",
+        "default": true
+      },
+      {
+        "name": "Default tagName (div)",
+        "type": "text",
+        "id": "defaultTagName",
+        "default": "div"
+      },
+      {
+        "name": "Default values",
+        "type": "switch",
+        "id": "showDefaultValues",
+        "default": true
+      }
+    ]
+  },
+  "dependencies": {
+    "zem": "^0.1.2"
+  }
+}
