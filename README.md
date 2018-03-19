@@ -3,7 +3,7 @@
 Generates [Surgical](https://github.com/syranide/surgical) JavaScript snippets from colors, text styles and layers. 
 
 *Borrows a lot of inspiration and code from the 
-[zpelin/react-native-extension](https://github.com/zeplin/react-native-extension)*
+[zeplin/react-native-extension](https://github.com/zeplin/react-native-extension)*
 
 Sample colors output:
 ```js
@@ -104,7 +104,6 @@ Toggles always generating default values from layers or text styles, such as `fo
     'green-2': '#00ff00'
   };
   ```
-- s
 ## Development
 
 Zeplin Surgical extension is developed using [zem](https://github.com/zeplin/zem), Zeplin Extension Manager. zem is a 
